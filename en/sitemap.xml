@@ -3,167 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://schimmel.ar/posts/2014/09/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/posts/2014/09/creating-a-new-theme/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/posts/2014/03/migrate-to-hugo-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/posts/2014/03/migrer-vers-hugo-depuis-jekyll/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/posts/2014/03/migrate-to-hugo-from-jekyll/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/categories/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://schimmel.ar/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/equipo/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/categories/fotografia/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/fotografia/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/posts/2020/10/fotograf%C3%ADa-que-uso/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/gear/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/series/photo/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/categories/photo/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/photo/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/posts/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/review/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/series/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://schimmel.ar/es/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://schimmel.ar/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/series/hugo-101/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/</loc>
+    <loc>http://schimmel.ar/en/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/es/"
+                href="http://schimmel.ar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -173,83 +18,80 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/"
+                href="http://schimmel.ar/en/"
                 />
   </url>
   
   <url>
-    <loc>http://schimmel.ar/about/</loc>
+    <loc>http://schimmel.ar/en/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/posts/2014/04/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/"
+                hreflang="es"
+                href="http://schimmel.ar/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/posts/2014/04/hugo-template-primer/"
+                href="http://schimmel.ar/en/about/"
                 />
   </url>
   
   <url>
-    <loc>http://schimmel.ar/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/posts/2014/04/getting-started-with-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://schimmel.ar/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/categories/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://schimmel.ar/fr/posts/2014/04/d%C3%A9buter-avec-hugo/"
+                href="http://schimmel.ar/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/posts/2014/04/getting-started-with-hugo/"
+                href="http://schimmel.ar/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://schimmel.ar/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://schimmel.ar/en/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://schimmel.ar/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/series/"
+                />
   </url>
   
   <url>
-    <loc>http://schimmel.ar/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://schimmel.ar/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://schimmel.ar/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/tags/"
+                />
   </url>
   
 </urlset>

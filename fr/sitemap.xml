@@ -8,12 +8,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/es/categories/"
+                href="http://schimmel.ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/categories/"
+                href="http://schimmel.ar/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -27,7 +27,7 @@
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="http://schimmel.ar/posts/2014/09/creating-a-new-theme/"
                 />
     <xhtml:link
@@ -47,7 +47,7 @@
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="http://schimmel.ar/posts/"
                 />
     <xhtml:link
@@ -63,12 +63,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/es/"
+                href="http://schimmel.ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/"
+                href="http://schimmel.ar/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -82,7 +82,7 @@
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="http://schimmel.ar/posts/2014/04/getting-started-with-hugo/"
                 />
     <xhtml:link
@@ -102,7 +102,7 @@
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="http://schimmel.ar/posts/2014/04/hugo-template-primer/"
                 />
     <xhtml:link
@@ -122,7 +122,7 @@
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="http://schimmel.ar/posts/2014/03/migrate-to-hugo-from-jekyll/"
                 />
     <xhtml:link
@@ -137,12 +137,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/es/series/"
+                href="http://schimmel.ar/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/series/"
+                href="http://schimmel.ar/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -156,12 +156,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/es/tags/"
+                href="http://schimmel.ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/tags/"
+                href="http://schimmel.ar/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
