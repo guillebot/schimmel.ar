@@ -3,78 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://schimmel.ar/fr/categories/</loc>
+    <loc>https://schimmel.ar/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/categories/"
+                href="https://schimmel.ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/en/categories/"
+                href="https://schimmel.ar/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://schimmel.ar/fr/categories/"
+                href="https://schimmel.ar/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://schimmel.ar/fr/</loc>
+    <loc>https://schimmel.ar/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/"
+                href="https://schimmel.ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/en/"
+                href="https://schimmel.ar/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://schimmel.ar/fr/"
+                href="https://schimmel.ar/fr/"
                 />
   </url>
   
   <url>
-    <loc>http://schimmel.ar/fr/series/</loc>
+    <loc>https://schimmel.ar/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/series/"
+                href="https://schimmel.ar/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/en/series/"
+                href="https://schimmel.ar/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://schimmel.ar/fr/series/"
+                href="https://schimmel.ar/fr/series/"
                 />
   </url>
   
   <url>
-    <loc>http://schimmel.ar/fr/tags/</loc>
+    <loc>https://schimmel.ar/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://schimmel.ar/tags/"
+                href="https://schimmel.ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://schimmel.ar/en/tags/"
+                href="https://schimmel.ar/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://schimmel.ar/fr/tags/"
+                href="https://schimmel.ar/fr/tags/"
                 />
   </url>
   
