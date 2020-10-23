@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Schimmel</title>
+        <link>http://schimmel.ar/en/posts/</link>
+        <description>Recent content in Posts on Schimmel</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>es-AR</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
+        <atom:link href="http://schimmel.ar/en/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>What photo gear do I use?</title>
+            <link>http://schimmel.ar/en/posts/2020/10/what-photo-gear-do-i-use/</link>
+            <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+            
+            <guid>http://schimmel.ar/en/posts/2020/10/what-photo-gear-do-i-use/</guid>
+            <description>prueba </description>
+            <content type="html"><![CDATA[<h1 id="prueba">prueba</h1>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

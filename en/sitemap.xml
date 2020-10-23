@@ -3,6 +3,221 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://schimmel.ar/en/categories/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://schimmel.ar/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/tags/equipo/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/tags/equipo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/tags/equipo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/categories/fotografia/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/categories/fotografia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/categories/fotografia/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/tags/fotografia/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/tags/fotografia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/tags/fotografia/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/tags/gear/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/tags/gear/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/tags/gear/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/series/photo/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/series/photo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/series/photo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/categories/photo/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/categories/photo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/categories/photo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/tags/photo/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/tags/photo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/tags/photo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/posts/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://schimmel.ar/fr/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/tags/review/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/tags/review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/tags/review/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/series/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://schimmel.ar/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/tags/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://schimmel.ar/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/en/posts/2020/10/what-photo-gear-do-i-use/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/posts/2020/10/fotograf%C3%ADa-que-uso/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/en/posts/2020/10/what-photo-gear-do-i-use/"
+                />
+  </url>
+  
+  <url>
     <loc>http://schimmel.ar/en/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -34,63 +249,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://schimmel.ar/en/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://schimmel.ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/en/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://schimmel.ar/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/en/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://schimmel.ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/en/tags/"
                 />
   </url>
   
