@@ -6,7 +6,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>es-AR</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="http://schimmel.ar/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
@@ -968,6 +968,17 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 <p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Fotografía: que uso?</title>
+            <link>http://schimmel.ar/posts/2020/10/fotograf%C3%ADa-que-uso/</link>
+            <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+            
+            <guid>http://schimmel.ar/posts/2020/10/fotograf%C3%ADa-que-uso/</guid>
+            <description>prueba </description>
+            <content type="html"><![CDATA[<h1 id="prueba">prueba</h1>
 ]]></content>
         </item>
         

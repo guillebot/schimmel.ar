@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>review on Schimmel</title>
+    <link>http://schimmel.ar/tags/review/</link>
+    <description>Recent content in review on Schimmel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-AR</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://schimmel.ar/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fotografía: que uso?</title>
+      <link>http://schimmel.ar/posts/2020/10/fotograf%C3%ADa-que-uso/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://schimmel.ar/posts/2020/10/fotograf%C3%ADa-que-uso/</guid>
+      <description>prueba </description>
+    </item>
+    
+  </channel>
+</rss>

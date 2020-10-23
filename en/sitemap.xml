@@ -33,13 +33,63 @@
   </url>
   
   <url>
-    <loc>http://schimmel.ar/series/hugo-101/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>http://schimmel.ar/categories/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://schimmel.ar/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/tags/equipo/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/categories/fotografia/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/tags/fotografia/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/posts/2020/10/fotograf%C3%ADa-que-uso/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/tags/gear/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/series/photo/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/categories/photo/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/tags/photo/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://schimmel.ar/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -53,8 +103,13 @@
   </url>
   
   <url>
+    <loc>http://schimmel.ar/tags/review/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://schimmel.ar/series/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -65,6 +120,26 @@
                 hreflang="en"
                 href="http://schimmel.ar/series/"
                 />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/tags/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://schimmel.ar/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://schimmel.ar/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://schimmel.ar/series/hugo-101/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -99,21 +174,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://schimmel.ar/posts/2014/04/hugo-template-primer/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/categories/"
                 />
   </url>
   
@@ -160,21 +220,6 @@
   <url>
     <loc>http://schimmel.ar/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://schimmel.ar/tags/"
-                />
   </url>
   
   <url>
