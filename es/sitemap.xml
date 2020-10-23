@@ -3,26 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://schimmel.ar/posts/2014/09/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://schimmel.ar/posts/2014/09/creating-a-new-theme/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/posts/2014/03/migrate-to-hugo-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://schimmel.ar/categories/</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -90,16 +70,6 @@
   <url>
     <loc>http://schimmel.ar/posts/</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://schimmel.ar/fr/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://schimmel.ar/posts/"
-                />
   </url>
   
   <url>
@@ -148,11 +118,6 @@
   </url>
   
   <url>
-    <loc>http://schimmel.ar/series/hugo-101/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://schimmel.ar/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -185,56 +150,6 @@
                 hreflang="es"
                 href="http://schimmel.ar/about/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/posts/2014/04/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/posts/2014/04/getting-started-with-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://schimmel.ar/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
