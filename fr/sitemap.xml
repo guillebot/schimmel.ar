@@ -7,6 +7,11 @@
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://schimmel.ar/categories/"
                 />
@@ -55,6 +60,11 @@
   <url>
     <loc>http://schimmel.ar/fr/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/es/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -126,6 +136,11 @@
     <loc>http://schimmel.ar/fr/series/</loc>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/es/series/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="http://schimmel.ar/series/"
                 />
@@ -138,6 +153,11 @@
   
   <url>
     <loc>http://schimmel.ar/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/es/tags/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

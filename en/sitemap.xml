@@ -37,6 +37,11 @@
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="http://schimmel.ar/fr/categories/"
                 />
@@ -112,6 +117,11 @@
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/es/series/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="http://schimmel.ar/fr/series/"
                 />
@@ -125,6 +135,11 @@
   <url>
     <loc>http://schimmel.ar/tags/</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/es/tags/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -145,6 +160,11 @@
   <url>
     <loc>http://schimmel.ar/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://schimmel.ar/es/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
