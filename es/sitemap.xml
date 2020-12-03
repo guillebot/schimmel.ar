@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://schimmel.ar/tags/3d/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/categories/3d/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://schimmel.ar/categories/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -23,22 +33,12 @@
   </url>
   
   <url>
-    <loc>https://schimmel.ar/tags/equipo/</loc>
+    <loc>https://schimmel.ar/series/fablab/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/categories/fotografia/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/tags/fotografia/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/posts/2020/12/fotograf%C3%ADa-que-uso/</loc>
+    <loc>https://schimmel.ar/categories/fablab/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,27 +48,22 @@
   </url>
   
   <url>
-    <loc>https://schimmel.ar/series/photo/</loc>
+    <loc>https://schimmel.ar/tags/hobby/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/categories/photo/</loc>
+    <loc>https://schimmel.ar/tags/impresora/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/tags/photo/</loc>
+    <loc>https://schimmel.ar/posts/2020/12/mi-primera-impresora-3d/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://schimmel.ar/posts/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/tags/review/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,38 +128,43 @@
   </url>
   
   <url>
-    <loc>https://schimmel.ar/tags/3d/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <loc>https://schimmel.ar/tags/equipo/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/categories/3d/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <loc>https://schimmel.ar/categories/fotografia/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/series/fablab/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <loc>https://schimmel.ar/tags/fotografia/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/categories/fablab/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <loc>https://schimmel.ar/posts/2020/11/fotograf%C3%ADa-que-uso/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/tags/hobby/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <loc>https://schimmel.ar/series/photo/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/tags/impresora/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <loc>https://schimmel.ar/categories/photo/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schimmel.ar/posts/2020/10/mi-primera-impresora-3d/</loc>
-    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+    <loc>https://schimmel.ar/tags/photo/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/tags/review/</loc>
+    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>

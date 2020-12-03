@@ -10,11 +10,41 @@
         <atom:link href="https://schimmel.ar/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Fotografía: que uso?</title>
-            <link>https://schimmel.ar/posts/2020/12/fotograf%C3%ADa-que-uso/</link>
+            <title>Mi primera impresora 3D</title>
+            <link>https://schimmel.ar/posts/2020/12/mi-primera-impresora-3d/</link>
             <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://schimmel.ar/posts/2020/12/fotograf%C3%ADa-que-uso/</guid>
+            <guid>https://schimmel.ar/posts/2020/12/mi-primera-impresora-3d/</guid>
+            <description>Mi primer contacto con la impresión 3D Ya hace varios años que la impresión 3D suena en todos lados.
+En los últimos meses aproveché el tiempo y un nuevo emprendimiento al que me estoy dedicando (www.tecnox.com.ar), y seguí un curso de diseño en 3D, fundamentalmente orientado a Fusion 360, Solidworks, etc.
+Esto me permitió diseñar y mandar a construir algunas piezas para nuestros prototipos, que de otra forma hubieran sido bastante dificiles de hacer.</description>
+            <content type="html"><![CDATA[<h1 id="mi-primer-contacto-con-la-impresión-3d">Mi primer contacto con la impresión 3D</h1>
+<p>Ya hace varios años que la impresión 3D suena en todos lados.</p>
+<p>En los últimos meses aproveché el tiempo y un nuevo emprendimiento al que me estoy dedicando (<a href="http://www.tecnox.com.ar">www.tecnox.com.ar</a>), y seguí un curso de diseño en 3D, fundamentalmente orientado a Fusion 360, Solidworks, etc.</p>
+<p>Esto me permitió diseñar y mandar a construir algunas piezas para nuestros prototipos, que de otra forma hubieran sido bastante dificiles de hacer.</p>
+<p><img src="/img/impresora3d/soporte3.png" alt="soporte"></p>
+<p>Con estos prototipos aprendimos mucho y detectamos varias oportunidades de mejora en estas piezas, al mismo tiempo que aparece la necesidad de construir un nuevo prototipo totalmente nuevo.</p>
+<p>Es por eso que evaluando el costo de mandar a imprimir vs. comprar la impresora nosotros, junto con la flexibilidad de tenerla a mano, nos decidimos a comprar nuestro propio equipo.</p>
+<p>Para empezar nos inclinamos por <a href="https://en.wikipedia.org/wiki/Fused_filament_fabrication">FDM</a>, aunque ya estoy mirando de reojo algunos modelos de DLP.</p>
+<p>Dentro de las FDM buscamos algo sencillo y relativamente económico, aprovechamos el black friday y nos trajimos una <a href="https://www.creality.com/goods-detail/ender-3-v2-3d-printer">Creality Ender 3 V2</a>.</p>
+<p><img src="/img/impresora3d/ender3dv2.jpg" alt="Ender 3D v2"></p>
+<p>Es una versión renovada de Creality Ender 3, con algunas cosas que yo en particular queria como cama de vidrio, y de paso viene con una electrónica muy mejorada y moderna.</p>
+<p>Este post muy sencillo es solamente la excusa para publicar un video rudimentario del unboxing y armado de la impresora.</p>
+<p>Es importante destacar que nunca había tocado una impresora antes de hoy, con lo cual la experiencia parece ser muy satisfactoria.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/SrNvj7RrW08" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Fotografía: que uso?</title>
+            <link>https://schimmel.ar/posts/2020/11/fotograf%C3%ADa-que-uso/</link>
+            <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://schimmel.ar/posts/2020/11/fotograf%C3%ADa-que-uso/</guid>
             <description>TL;DR Canon 6D con EF 50mm f/1.4 En serio, que usás? Es una de las preguntas que más hacen. Mi relación con esa pregunta es amor-odio.
 Me cae mal en el contexto de &amp;ldquo;Que buena foto! Qué cámara usas?&amp;rdquo; o &amp;ldquo;Tu cámara debe ser muy buena&amp;rdquo;. Es el equivalente a ir a un buen restaurante, llamar al cheff y preguntarle que olla usa. Un papelón.
 Pero como foto-nerd entiendo la curiosidad, nos gustan los cacharros, nos gustan los botones y las lucecitas.</description>
@@ -107,36 +137,6 @@ Pero como foto-nerd entiendo la curiosidad, nos gustan los cacharros, nos gustan
 <p>Y eso amigos es el grueso de mi equipo. Con eso hago el 99%+ de las fotos que ven por ahí. Es bastante, pero como casi todo en fotografía, si se cuida dura años. Es cuestion de ir armando de a poco.</p>
 <p>Si quieren saber algo más específico me escriben a <a href="mailto:photo@schimmel.com.ar">photo@schimmel.com.ar</a>.</p>
 <p>Gracias por leer y no olviden clickear suscribir.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Mi primera impresora 3D</title>
-            <link>https://schimmel.ar/posts/2020/10/mi-primera-impresora-3d/</link>
-            <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
-            
-            <guid>https://schimmel.ar/posts/2020/10/mi-primera-impresora-3d/</guid>
-            <description>Mi primer contacto con la impresión 3D Ya hace varios años que la impresión 3D suena en todos lados.
-En los últimos meses aproveché el tiempo y un nuevo emprendimiento al que me estoy dedicando (www.tecnox.com.ar), y seguí un curso de diseño en 3D, fundamentalmente orientado a Fusion 360, Solidworks, etc.
-Esto me permitió diseñar y mandar a construir algunas piezas para nuestros prototipos, que de otra forma hubieran sido bastante dificiles de hacer.</description>
-            <content type="html"><![CDATA[<h1 id="mi-primer-contacto-con-la-impresión-3d">Mi primer contacto con la impresión 3D</h1>
-<p>Ya hace varios años que la impresión 3D suena en todos lados.</p>
-<p>En los últimos meses aproveché el tiempo y un nuevo emprendimiento al que me estoy dedicando (<a href="http://www.tecnox.com.ar">www.tecnox.com.ar</a>), y seguí un curso de diseño en 3D, fundamentalmente orientado a Fusion 360, Solidworks, etc.</p>
-<p>Esto me permitió diseñar y mandar a construir algunas piezas para nuestros prototipos, que de otra forma hubieran sido bastante dificiles de hacer.</p>
-<p><img src="/img/impresora3d/soporte3.png" alt="soporte"></p>
-<p>Con estos prototipos aprendimos mucho y detectamos varias oportunidades de mejora en estas piezas, al mismo tiempo que aparece la necesidad de construir un nuevo prototipo totalmente nuevo.</p>
-<p>Es por eso que evaluando el costo de mandar a imprimir vs. comprar la impresora nosotros, junto con la flexibilidad de tenerla a mano, nos decidimos a comprar nuestro propio equipo.</p>
-<p>Para empezar nos inclinamos por <a href="https://en.wikipedia.org/wiki/Fused_filament_fabrication">FDM</a>, aunque ya estoy mirando de reojo algunos modelos de DLP.</p>
-<p>Dentro de las FDM buscamos algo sencillo y relativamente económico, aprovechamos el black friday y nos trajimos una <a href="https://www.creality.com/goods-detail/ender-3-v2-3d-printer">Creality Ender 3 V2</a>.</p>
-<p><img src="/img/impresora3d/ender3dv2.jpg" alt="Ender 3D v2"></p>
-<p>Es una versión renovada de Creality Ender 3, con algunas cosas que yo en particular queria como cama de vidrio, y de paso viene con una electrónica muy mejorada y moderna.</p>
-<p>Este post muy sencillo es solamente la excusa para publicar un video rudimentario del unboxing y armado de la impresora.</p>
-<p>Es importante destacar que nunca había tocado una impresora antes de hoy, con lo cual la experiencia parece ser muy satisfactoria.</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/SrNvj7RrW08" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
 ]]></content>
         </item>
         
