@@ -3,26 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://schimmel.ar/en/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://schimmel.ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://schimmel.ar/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://schimmel.ar/en/"
-                />
-  </url>
-  
-  <url>
     <loc>https://schimmel.ar/en/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -53,6 +33,25 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://schimmel.ar/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://schimmel.ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://schimmel.ar/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://schimmel.ar/en/"
                 />
   </url>
   

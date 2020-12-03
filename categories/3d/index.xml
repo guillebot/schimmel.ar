@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D on Schimmel</title>
+    <link>https://schimmel.ar/categories/3d/</link>
+    <description>Recent content in 3D on Schimmel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-AR</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://schimmel.ar/categories/3d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mi primera impresora 3D</title>
+      <link>https://schimmel.ar/posts/2020/10/mi-primera-impresora-3d/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://schimmel.ar/posts/2020/10/mi-primera-impresora-3d/</guid>
+      <description>Mi primer contacto con la impresión 3D Ya hace varios años que la impresión 3D suena en todos lados.
+En los últimos meses aproveché el tiempo y un nuevo emprendimiento al que me estoy dedicando (www.tecnox.com.ar), y seguí un curso de diseño en 3D, fundamentalmente orientado a Fusion 360, Solidworks, etc.
+Esto me permitió diseñar y mandar a construir algunas piezas para nuestros prototipos, que de otra forma hubieran sido bastante dificiles de hacer.</description>
+    </item>
+    
+  </channel>
+</rss>
