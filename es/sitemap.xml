@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://schimmel.ar/posts/2021/03/agfa-isolette-i/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://schimmel.ar/categories/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,6 +24,111 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://schimmel.ar/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/tags/equipo/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/categories/fotografia/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/tags/fotografia/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/tags/gear/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/series/photo/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/categories/photo/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/tags/photo/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/posts/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/tags/review/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://schimmel.ar/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://schimmel.ar/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://schimmel.ar/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/series/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://schimmel.ar/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://schimmel.ar/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://schimmel.ar/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://schimmel.ar/tags/</loc>
+    <lastmod>2021-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://schimmel.ar/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://schimmel.ar/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://schimmel.ar/tags/"
                 />
   </url>
   
@@ -53,71 +163,6 @@
   </url>
   
   <url>
-    <loc>https://schimmel.ar/posts/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://schimmel.ar/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://schimmel.ar/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://schimmel.ar/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/series/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://schimmel.ar/en/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://schimmel.ar/fr/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://schimmel.ar/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/tags/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://schimmel.ar/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://schimmel.ar/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://schimmel.ar/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://schimmel.ar/tags/3d/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
@@ -138,11 +183,6 @@
   </url>
   
   <url>
-    <loc>https://schimmel.ar/tags/gear/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://schimmel.ar/tags/hobby/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
@@ -158,42 +198,7 @@
   </url>
   
   <url>
-    <loc>https://schimmel.ar/tags/equipo/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/categories/fotografia/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/tags/fotografia/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://schimmel.ar/posts/2020/11/fotograf%C3%ADa-que-uso/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/series/photo/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/categories/photo/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/tags/photo/</loc>
-    <lastmod>2020-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://schimmel.ar/tags/review/</loc>
     <lastmod>2020-11-02T00:00:00+00:00</lastmod>
   </url>
   
