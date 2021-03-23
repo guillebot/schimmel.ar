@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-AR</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://schimmel.ar/tags/impresora/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://schimmel.ar/tags/impresora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Octoprint</title>
+      <link>https://schimmel.ar/posts/2021/03/octoprint/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://schimmel.ar/posts/2021/03/octoprint/</guid>
+      <description>&lt;p&gt;Desde que &lt;a href=&#34;https://schimmel.ar/posts/2020/12/mi-primera-impresora-3d/&#34;&gt;compré la impresora&lt;/a&gt; la estuve usando con el workflow convencional: elaborar el modelo en Fusion 360 o bien bajarlo de algún lado, pasar por el slicer &lt;a href=&#34;https://ultimaker.com/software/ultimaker-cura&#34;&gt;Cura&lt;/a&gt;, y luego copiar a tarjeta microSD y llevar fisicamente a la impresora.&lt;/p&gt;
+&lt;p&gt;Ese workflow funciona perfectamente, pero en algunas oportunidades me he encontrado con otras necesidades, por ejemplo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Control remoto&lt;/li&gt;
+&lt;li&gt;Visualizar lo que estoy haciendo (WebCam)&lt;/li&gt;
+&lt;li&gt;Hacer timelapses decentes de las impresiones.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para estas cosas, y muchas otras, se hizo &lt;a href=&#34;https://octoprint.org/&#34;&gt;OctoPrint&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://schimmel.ar/img/octoprint/octoprint.png&#34; alt=&#34;OctoPrint&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Mi primera impresora 3D</title>
       <link>https://schimmel.ar/posts/2020/12/mi-primera-impresora-3d/</link>

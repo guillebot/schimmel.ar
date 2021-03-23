@@ -6,8 +6,86 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>es-AR</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://schimmel.ar/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Octoprint</title>
+            <link>https://schimmel.ar/posts/2021/03/octoprint/</link>
+            <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://schimmel.ar/posts/2021/03/octoprint/</guid>
+            <description>&lt;p&gt;Desde que &lt;a href=&#34;https://schimmel.ar/posts/2020/12/mi-primera-impresora-3d/&#34;&gt;compré la impresora&lt;/a&gt; la estuve usando con el workflow convencional: elaborar el modelo en Fusion 360 o bien bajarlo de algún lado, pasar por el slicer &lt;a href=&#34;https://ultimaker.com/software/ultimaker-cura&#34;&gt;Cura&lt;/a&gt;, y luego copiar a tarjeta microSD y llevar fisicamente a la impresora.&lt;/p&gt;
+&lt;p&gt;Ese workflow funciona perfectamente, pero en algunas oportunidades me he encontrado con otras necesidades, por ejemplo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Control remoto&lt;/li&gt;
+&lt;li&gt;Visualizar lo que estoy haciendo (WebCam)&lt;/li&gt;
+&lt;li&gt;Hacer timelapses decentes de las impresiones.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para estas cosas, y muchas otras, se hizo &lt;a href=&#34;https://octoprint.org/&#34;&gt;OctoPrint&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://schimmel.ar/img/octoprint/octoprint.png&#34; alt=&#34;OctoPrint&#34;&gt;&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Desde que <a href="https://schimmel.ar/posts/2020/12/mi-primera-impresora-3d/">compré la impresora</a> la estuve usando con el workflow convencional: elaborar el modelo en Fusion 360 o bien bajarlo de algún lado, pasar por el slicer <a href="https://ultimaker.com/software/ultimaker-cura">Cura</a>, y luego copiar a tarjeta microSD y llevar fisicamente a la impresora.</p>
+<p>Ese workflow funciona perfectamente, pero en algunas oportunidades me he encontrado con otras necesidades, por ejemplo:</p>
+<ol>
+<li>Control remoto</li>
+<li>Visualizar lo que estoy haciendo (WebCam)</li>
+<li>Hacer timelapses decentes de las impresiones.</li>
+</ol>
+<p>Para estas cosas, y muchas otras, se hizo <a href="https://octoprint.org/">OctoPrint</a>.</p>
+<p><img src="/img/octoprint/octoprint.png" alt="OctoPrint"></p>
+<p>Entiendo que Octoprint puede funcionar en cualquier PC, incluso una opción razonable sería meterlo en una VM de mi server, ya que están en el mismo lugar, pero el caso de uso mas recomendado es en una Raspberry Pi. Si bien la página recomienda desde modelo 3 en adelante, mi experiencia por ahora con una Model 2B está siendo satisfactoria.</p>
+<p>El proceso de instalación es muy sencillo, se <a href="https://octoprint.org/download/">baja la imagen</a>, se chequea MD5SUM (Opcional), se copia a la tarjeta microSD con <a href="https://www.balena.io/etcher/">Balena Etcher</a>, y se inicia por primera vez.</p>
+<p>En mi caso está todo en el mismo laboratorio y cuento con puertos gigabit ethernet, así que por simplicidad y confiabilidad uso un cable ethernet, aunque está soportado el uso via Wifi.</p>
+<p>Bootea perfecto, configuro algunas cosas iniciales.</p>
+<p>Lo primero que reviso es si hay cosas para upgradear (TOC), casi siempre hay:</p>
+<p><img src="/img/octoprint/update.png" alt="Updates"></p>
+<p>Una confirmación:</p>
+<p><img src="/img/octoprint/updateconfirm.png" alt="Updates Confirm"></p>
+<p>Reboot:</p>
+<p><img src="/img/octoprint/updatereboot.png" alt="Updates Reboot"></p>
+<p>Y ya queda online y actualizado.</p>
+<p>Una de las cosas que mas me gustó de Octoprint es que a pesar de estar trabajando con tecnologias nuevas y no tan pulidas, como son las impresoras 3D hogareñas, tiene un cuidado con el usuario pocas veces visto. Buenos avisos ante los errores, buen troubleshooting.</p>
+<p>Por ejemplo al decirle que mi impresora es una <a href="https://www.creality.com/goods-detail/ender-3-v2-3d-printer">Creality Ender 3 V2</a>, me indicó que tenía que instalar un plugin para corregir una pavada en el reporte de temperaturas:</p>
+<p><img src="/img/octoprint/crealityalert.png" alt="Creality temperature reporting alert"></p>
+<p>Se instala muy fácil:
+<img src="/img/octoprint/crealityfix.png" alt="Creality temperature reporting fix"></p>
+<h2 id="instalar-octolapse">Instalar Octolapse</h2>
+<p>Yendo a la parte de plugins, se busca Octolapse y se instala. De manera muy sencilla reconoce cualquier cámara USB conectada a la raspberry pi.</p>
+<h2 id="el-paso-siguiente-es-conectar-ultimaker-cura-con-octoprint">El paso siguiente es conectar Ultimaker Cura con Octoprint</h2>
+<p>Hay muchas guias, pero yo seguí esta que me pareció la mas directa:</p>
+<p><a href="https://all3dp.com/2/cura-octoprint-plugin-connection/">https://all3dp.com/2/cura-octoprint-plugin-connection/</a></p>
+<p>Marketplace:</p>
+<p><img src="/img/octoprint/cura1.png" alt="cura 1"></p>
+<p>Buscamos OctoPrint Connection:</p>
+<p><img src="/img/octoprint/cura2.png" alt="cura 2"></p>
+<p>Licencia:</p>
+<p><img src="/img/octoprint/cura3.png" alt="cura 3"></p>
+<p>Nos aparece entonces una opción &ldquo;Connect OctoPrint&rdquo;:</p>
+<p><img src="/img/octoprint/cura4.png" alt="cura 4"></p>
+<p>Cargamos la API Key que buscamos en Octoprint:</p>
+<p><img src="/img/octoprint/cura5.png" alt="cura 5"></p>
+<p>A partir de ahora tenemos además de las opciones de siempre, &ldquo;Print with Octoprint&rdquo;, hemos convertido a nuestra impresora común en Networked:</p>
+<p><img src="/img/octoprint/cura6.png" alt="cura 6"></p>
+<h2 id="resultados">Resultados</h2>
+<p>Acá se ve una prueba, con una Logitech C920, condiciones de iluminación regulares.
+El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en particular, que es muy esbelto y detallado, producen un resultado en la pieza bastante malo.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Xwg0f8y6nro" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Antes había hecho uno con peor cámara pero dejando el extrusor sobre la impresión en cada capa se obtuvo un acabado mucho mejor.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/p3c-g2mHTYc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Si bien llevo un par de horas con este setup, se aprecia mucho la simplicidad al integrar la impresora a la red.</p>
+<p>A priori el hecho de enviar diseños via red simplifica las cosas, aunque claramente se agrega un punto de falla que habrá que evaluar cuanto afecta.</p>
+<p>El próximo paso sería dejar la raspberry pi adosada de alguna forma a la impresora para que la solución física sea mas prolija.</p>
+<p>Desde el punto de vista de los Octolapses, quizás el feature que mas me interesa para hacer posteos en este y otros blogs, me queda como pendiente mejorar el montaje de la cámara, para que quede integrado a la impresora, y agregar algún tipo de iluminador led. También tengo que ver como fijar el foco de la cámara ya que con autofocus no siempre queda en el mismo lugar.</p>]]></content>
+        </item>
         
         <item>
             <title>AGFA Isolette I</title>
