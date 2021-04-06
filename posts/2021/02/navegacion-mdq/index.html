@@ -5,14 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="map[name:Guille]">
-<meta name="description" content="Desde que compré la impresora la estuve usando con el workflow convencional: elaborar el modelo en Fusion 360 o bien bajarlo de algún lado, pasar por el slicer Cura, y luego copiar a tarjeta microSD y llevar fisicamente a la impresora.
-Ese workflow funciona perfectamente, pero en algunas oportunidades me he encontrado con otras necesidades, por ejemplo:
- Control remoto Visualizar lo que estoy haciendo (WebCam) Hacer timelapses decentes de las impresiones.  Para estas cosas, y muchas otras, se hizo OctoPrint.
-" />
-<meta name="keywords" content=", 3D, impresora, gear, hobby" />
+<meta name="description" content="Navegando a Mar del Plata Bueno esa era la idea, al final van a ver que nos pegamos la vuelta a mitad de camino. Cosas que pasan con los barcos.
+Mi relación con la náutica es larguísima, mas de 30 años, pero muy interrumpida, acompañando el vaivén de mis mudanzas, estudio y vida en general.
+El primer contacto fue en los Optimist del Club Nautico Arsenal de Zárate.
+Varios años mas tarde hice el curso de timonel en el Club Azopardo, con mi amigo Mariano, y ahí de nuevo hicimos varios paseos y un Colonia de bautismo." />
+<meta name="keywords" content=", deportes, náutica" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
-<link rel="canonical" href="https://schimmel.ar/posts/2021/03/octoprint/" />
+<link rel="canonical" href="https://schimmel.ar/posts/2021/02/navegacion-mdq/" />
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -41,7 +41,7 @@ if (!doNotTrack) {
 
     <title>
         
-            Octoprint :: Schimmel  — Empiezo cosas
+            Navegación Buenos Aires - Mar del Plata :: Schimmel  — Empiezo cosas
         
     </title>
 
@@ -68,44 +68,44 @@ if (!doNotTrack) {
 
 
 
-<meta itemprop="name" content="Octoprint">
-<meta itemprop="description" content="Instalación de Octoprint y Octolapse en Raspi">
-<meta itemprop="datePublished" content="2021-03-23T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-03-23T00:00:00+00:00" />
-<meta itemprop="wordCount" content="612">
+<meta itemprop="name" content="Navegación Buenos Aires - Mar del Plata">
+<meta itemprop="description" content="Mi primera experiencia en navegación de varios días">
+<meta itemprop="datePublished" content="2021-02-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-02-24T00:00:00+00:00" />
+<meta itemprop="wordCount" content="799">
 <meta itemprop="image" content="https://schimmel.ar"/>
 
 
 
-<meta itemprop="keywords" content="3D,impresora,gear,hobby," />
+<meta itemprop="keywords" content="deportes,náutica," />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://schimmel.ar"/>
 
-<meta name="twitter:title" content="Octoprint"/>
-<meta name="twitter:description" content="Instalación de Octoprint y Octolapse en Raspi"/>
+<meta name="twitter:title" content="Navegación Buenos Aires - Mar del Plata"/>
+<meta name="twitter:description" content="Mi primera experiencia en navegación de varios días"/>
 
 
 
-    <meta property="og:title" content="Octoprint" />
-<meta property="og:description" content="Instalación de Octoprint y Octolapse en Raspi" />
+    <meta property="og:title" content="Navegación Buenos Aires - Mar del Plata" />
+<meta property="og:description" content="Mi primera experiencia en navegación de varios días" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://schimmel.ar/posts/2021/03/octoprint/" />
+<meta property="og:url" content="https://schimmel.ar/posts/2021/02/navegacion-mdq/" />
 <meta property="og:image" content="https://schimmel.ar"/>
-<meta property="article:published_time" content="2021-03-23T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-03-23T00:00:00+00:00" /><meta property="og:see_also" content="https://schimmel.ar/posts/2020/12/impresora3d/" />
+<meta property="article:published_time" content="2021-02-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-24T00:00:00+00:00" />
 
 
 
 
 
-    <meta property="article:section" content="FabLab" />
+    <meta property="article:section" content="Deportes" />
 
-    <meta property="article:section" content="3D" />
+    <meta property="article:section" content="Náutica" />
 
 
 
-    <meta property="article:published_time" content="2021-03-23 00:00:00 &#43;0000 UTC" />
+    <meta property="article:published_time" content="2021-02-24 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -195,7 +195,7 @@ if (!doNotTrack) {
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        3 minutos
+        4 minutos
 
         
       </p>
@@ -203,73 +203,63 @@ if (!doNotTrack) {
 
     <article>
       <h1 class="post-title">
-        <a href="https://schimmel.ar/posts/2021/03/octoprint/">Octoprint</a>
+        <a href="https://schimmel.ar/posts/2021/02/navegacion-mdq/">Navegación Buenos Aires - Mar del Plata</a>
       </h1>
 
       
 
       <div class="post-content">
-        <p>Desde que <a href="https://schimmel.ar/posts/2020/12/mi-primera-impresora-3d/">compré la impresora</a> la estuve usando con el workflow convencional: elaborar el modelo en Fusion 360 o bien bajarlo de algún lado, pasar por el slicer <a href="https://ultimaker.com/software/ultimaker-cura">Cura</a>, y luego copiar a tarjeta microSD y llevar fisicamente a la impresora.</p>
-<p>Ese workflow funciona perfectamente, pero en algunas oportunidades me he encontrado con otras necesidades, por ejemplo:</p>
-<ol>
-<li>Control remoto</li>
-<li>Visualizar lo que estoy haciendo (WebCam)</li>
-<li>Hacer timelapses decentes de las impresiones.</li>
-</ol>
-<p>Para estas cosas, y muchas otras, se hizo <a href="https://octoprint.org/">OctoPrint</a>.</p>
-<p><img src="https://schimmel.ar/img/octoprint/octoprint.png" alt="OctoPrint"></p>
-<p>Entiendo que Octoprint puede funcionar en cualquier PC, incluso una opción razonable sería meterlo en una VM de mi server, ya que están en el mismo lugar, pero el caso de uso mas recomendado es en una Raspberry Pi. Si bien la página recomienda desde modelo 3 en adelante, mi experiencia por ahora con una Model 2B está siendo satisfactoria.</p>
-<p>El proceso de instalación es muy sencillo, se <a href="https://octoprint.org/download/">baja la imagen</a>, se chequea MD5SUM (Opcional), se copia a la tarjeta microSD con <a href="https://www.balena.io/etcher/">Balena Etcher</a>, y se inicia por primera vez.</p>
-<p>En mi caso está todo en el mismo laboratorio y cuento con puertos gigabit ethernet, así que por simplicidad y confiabilidad uso un cable ethernet, aunque está soportado el uso via Wifi.</p>
-<p>Bootea perfecto, configuro algunas cosas iniciales.</p>
-<p>Lo primero que reviso es si hay cosas para upgradear (TOC), casi siempre hay:</p>
-<p><img src="https://schimmel.ar/img/octoprint/update.png" alt="Updates"></p>
-<p>Una confirmación:</p>
-<p><img src="https://schimmel.ar/img/octoprint/updateconfirm.png" alt="Updates Confirm"></p>
-<p>Reboot:</p>
-<p><img src="https://schimmel.ar/img/octoprint/updatereboot.png" alt="Updates Reboot"></p>
-<p>Y ya queda online y actualizado.</p>
-<p>Una de las cosas que mas me gustó de Octoprint es que a pesar de estar trabajando con tecnologias nuevas y no tan pulidas, como son las impresoras 3D hogareñas, tiene un cuidado con el usuario pocas veces visto. Buenos avisos ante los errores, buen troubleshooting.</p>
-<p>Por ejemplo al decirle que mi impresora es una <a href="https://www.creality.com/goods-detail/ender-3-v2-3d-printer">Creality Ender 3 V2</a>, me indicó que tenía que instalar un plugin para corregir una pavada en el reporte de temperaturas:</p>
-<p><img src="https://schimmel.ar/img/octoprint/crealityalert.png" alt="Creality temperature reporting alert"></p>
-<p>Se instala muy fácil:
-<img src="https://schimmel.ar/img/octoprint/crealityfix.png" alt="Creality temperature reporting fix"></p>
-<h2 id="instalar-octolapse">Instalar Octolapse</h2>
-<p>Yendo a la parte de plugins, se busca Octolapse y se instala. De manera muy sencilla reconoce cualquier cámara USB conectada a la raspberry pi.</p>
-<h2 id="el-paso-siguiente-es-conectar-ultimaker-cura-con-octoprint">El paso siguiente es conectar Ultimaker Cura con Octoprint</h2>
-<p>Hay muchas guias, pero yo seguí esta que me pareció la mas directa:</p>
-<p><a href="https://all3dp.com/2/cura-octoprint-plugin-connection/">https://all3dp.com/2/cura-octoprint-plugin-connection/</a></p>
-<p>Marketplace:</p>
-<p><img src="https://schimmel.ar/img/octoprint/cura1.png" alt="cura 1"></p>
-<p>Buscamos OctoPrint Connection:</p>
-<p><img src="https://schimmel.ar/img/octoprint/cura2.png" alt="cura 2"></p>
-<p>Licencia:</p>
-<p><img src="https://schimmel.ar/img/octoprint/cura3.png" alt="cura 3"></p>
-<p>Nos aparece entonces una opción &ldquo;Connect OctoPrint&rdquo;:</p>
-<p><img src="https://schimmel.ar/img/octoprint/cura4.png" alt="cura 4"></p>
-<p>Cargamos la API Key que buscamos en Octoprint:</p>
-<p><img src="https://schimmel.ar/img/octoprint/cura5.png" alt="cura 5"></p>
-<p>A partir de ahora tenemos además de las opciones de siempre, &ldquo;Print with Octoprint&rdquo;, hemos convertido a nuestra impresora común en Networked:</p>
-<p><img src="https://schimmel.ar/img/octoprint/cura6.png" alt="cura 6"></p>
-<h2 id="resultados">Resultados</h2>
-<p>Acá se ve una prueba, con una Logitech C920, condiciones de iluminación regulares.
-El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en particular, que es muy esbelto y detallado, producen un resultado en la pieza bastante malo.</p>
+        <h1 id="navegando-a-mar-del-plata">Navegando a Mar del Plata</h1>
+<p>Bueno esa era la idea, al final van a ver que nos pegamos la vuelta a mitad de camino. Cosas que pasan con los barcos.</p>
+<p>Mi relación con la náutica es larguísima, mas de 30 años, pero muy interrumpida, acompañando el vaivén de mis mudanzas, estudio y vida en general.</p>
+<p>El primer contacto fue en los Optimist del Club Nautico Arsenal de Zárate.</p>
+<p>Varios años mas tarde hice el curso de timonel en el <a href="http://www.nauticoazopardo.org.ar/">Club Azopardo</a>, con mi amigo Mariano, y ahí de nuevo hicimos varios paseos y un Colonia de bautismo.</p>
+<p><img src="https://schimmel.ar/img/sailing/azopardo.jpg" alt="Azopardo"></p>
+<p>Retomamos hace unos años en el Milena, un hermoso Plenamar 23 de mi padrino. Con el Milena paseamos bastante por nuestro lado del Rio de la Plata, y hasta fuimos un par de veces a Colonia.</p>
+<p><img src="https://schimmel.ar/img/sailing/milena.jpg" alt="Milena"></p>
+<p>Ya mas recientemente mi amigo Fede se decidió a incursionar en la navegación entrando por la puerta grande, con un el Beagle, un Pandora 34 hermoso y super equipado.</p>
+<p><img src="https://schimmel.ar/img/sailing/beagle.jpg" alt="Beagle"></p>
+<p>Nave total, 10 metros, velas de enrollar, rueda de timón, motor adentro, piloto automático y mil comodidades mas. La cosa se puso seria.</p>
+<p>Después de varias salidas, algunos cruces a Colonia, otro a Riachuelo, y una navegación nocturna para el olvido, salió el plan de incursionar en el mar, con destino nacional: Mar del Plata.</p>
+<p>270 millas náuticas, mitad rio y mitad mar, un par de noches, planazo.</p>
+<p>Yo lo máximo que habia estado arriba del barco habrán sido 10-12 horas, en algún cruce complicado, o alguna remontada del Paraná, pero nunca el plan completo de 50-60 horas, haciendo noche, guardias, etc.</p>
+<h2 id="acá-mi-relato">Acá mi relato</h2>
+<p>La previa fue con bastante ansiedad, las ganas de salir, y los preparativos. Mucho respeto al frio, por relatos de amigos que viajaron a Punta del Este, me hicieron juntar abrigos. Mucho calor en tierra, me hicieron agarrar remeras y gorros. Al final no me entraba ni la mitad de las cosas, hubo que achicar.</p>
+<p><img src="https://schimmel.ar/img/sailing/bolsito.jpg" alt="Bolsito"></p>
+<p>Planeando 50+ horas (270 millas a los 5 nudos que nos imaginamos) y mirando el clima, habíamos decidido salir un jueves por la mañana para llegar en algún momento del sábado.</p>
+<p>La atención siempre estuvo puesta en un frente frío que entraba por el sur, y nos podía complicar la llegada. Se veian vientos de 30-40 nudos, frío, olas grandes.</p>
+<p><img src="https://schimmel.ar/img/sailing/frentefrio.jpg" alt="Windy Frente Frio"></p>
+<p>Llegando al dia, nuestro capitán Victor, un muy experimentado navegante, nos sugirió que adelantemos 12 horas y salgamos el miércoles a la noche, después del despacho en prefectura.</p>
+<p>Así fue que hicimos ese trámite absurdo y arcaico en San Isidro,</p>
+<p><img src="https://schimmel.ar/img/sailing/prefecturasanisidro.jpg" alt="Prefectura"></p>
+<p>y de ahí nos fuimos para el Club de Graduados del Liceo Naval, y soltamos amarra a eso de las 21hs.</p>
+<p><img src="https://schimmel.ar/img/sailing/saliendo.jpg" alt="Saliendo"></p>
+<p>La nochecita estaba perfecta, temperatura ideal, pudimos disfrutar Buenos Aires desde el agua. Poco viento, una constante durante la ida, metimos toda la vela y acompañamos con motor. Casi sin tráfico en el río, recién algo de barcos en la rada de La Plata.</p>
+<p>Tipo 12 arrancan las guardias, nos toca dormir un rato para agarrar de 03:00 a 06:00 y disfrutar del amanecer:</p>
+<p><img src="https://schimmel.ar/img/sailing/amanecer.jpg" alt="Amanecer"></p>
+<p>Seguimos muy tranquilos, a unos 5 nudos, siempre acompañando con motor suave, el viento esquivo.</p>
+<p>Algunos cruces con barcos que volvian de la regata BsAs-MDQ de la semana anterior:</p>
+<p><img src="https://schimmel.ar/img/sailing/barco.jpg" alt="Cruce con Barco"></p>
+<p>Pero mayormente nosotros solos, adivinando por donde estabamos en la costa.</p>
+<p>Y al mediodía, las malas noticias. Después de poner unas empanadas en el horno, detecto un olor que no me gusta nada. Abrimos con precaución la tapa del motor y una humareda inmensa nos avisa que algo está demasiado caliente.</p>
+<p>Un rato mas tarde y habiendo revisado todo lo que se podía, llegó el veredicto, el circuito de agua de mar no está funcionando, o entra aire, o está tapado, no lo sabemos.</p>
+<p><img src="https://schimmel.ar/img/sailing/motor.jpg" alt="Motor"></p>
+<p>El pronóstico de la llegada a MdQ sigue siendo preocupante, vientos de 30+ nudos, por lo que el capitán poniendo la seguridad primero decide que peguemos la vuelta. Habíamos hecho 110 millas y estabamos entrando de lleno en la Bahía de Samborombón.</p>
+<p><img src="https://schimmel.ar/img/sailing/gpsvuelta.jpg" alt="GPS Vuelta"></p>
+<p>Mas tarde veríamos que la decisión fue acertada, el clima en MDQ se iba a poner bravo:</p>
+<p><img src="https://schimmel.ar/img/sailing/climamdq.jpg" alt="Clima MDQ"></p>
+<p>Superada la frustración, empezó el que quizás fue mi tramo mas lindo de navegación. Tiempo de sobra, una ruta relativamente conocida y viento que se fue prestando cada vez mas, nos volvieron a Buenos Aires a 7 nudos, y la falta de batería (recordemos que estabamos ya sin motor y de noche sin paneles) nos obligó a timonear un montón.</p>
+<p>Otras guardias, un poquito mas de fresco, otro amanecer, y muchas millas timoneando el Beagle, cada vez con mas viento:</p>
+<p><img src="https://schimmel.ar/img/sailing/vuelta1.jpg" alt="vuelta 1"></p>
+<p>Al final una entrada interesante al club, haciendo vela hasta la entrada y hasta una pequeña encallada en el fondo. Algún dia van a dragar&hellip;</p>
+<p>En definitiva una experiencia genial, que nos dejó con ganas de mas. Volveremos!</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Xwg0f8y6nro" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/tPfQxSho7As" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-<p>Antes había hecho uno con peor cámara pero dejando el extrusor sobre la impresión en cada capa se obtuvo un acabado mucho mejor.
+<p>Gracias <a href="https://www.instagram.com/federicolosasso/">Fede</a>!</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/p3c-g2mHTYc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</p>
-<h2 id="conclusión">Conclusión</h2>
-<p>Si bien llevo un par de horas con este setup, se aprecia mucho la simplicidad al integrar la impresora a la red.</p>
-<p>A priori el hecho de enviar diseños via red simplifica las cosas, aunque claramente se agrega un punto de falla que habrá que evaluar cuanto afecta.</p>
-<p>El próximo paso sería dejar la raspberry pi adosada de alguna forma a la impresora para que la solución física sea mas prolija.</p>
-<p>Desde el punto de vista de los Octolapses, quizás el feature que mas me interesa para hacer posteos en este y otros blogs, me queda como pendiente mejorar el montaje de la cámara, para que quede integrado a la impresora, y agregar algún tipo de iluminador led. También tengo que ver como fijar el foco de la cámara ya que con autofocus no siempre queda en el mismo lugar.</p>
       </div>
     </article>
 
@@ -280,10 +270,8 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
     <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
 
-        <span class="tag"><a href="https://schimmel.ar/tags/3d/">3D</a></span>
-        <span class="tag"><a href="https://schimmel.ar/tags/impresora/">impresora</a></span>
-        <span class="tag"><a href="https://schimmel.ar/tags/gear/">gear</a></span>
-        <span class="tag"><a href="https://schimmel.ar/tags/hobby/">hobby</a></span>
+        <span class="tag"><a href="https://schimmel.ar/tags/deportes/">deportes</a></span>
+        <span class="tag"><a href="https://schimmel.ar/tags/n%C3%A1utica/">náutica</a></span>
         
     </p>
 
@@ -291,8 +279,8 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
     <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
 
-        <span class="tag"><a href="https://schimmel.ar/categories/fablab/">FabLab</a></span>
-        <span class="tag"><a href="https://schimmel.ar/categories/3d/">3D</a></span>
+        <span class="tag"><a href="https://schimmel.ar/categories/deportes/">Deportes</a></span>
+        <span class="tag"><a href="https://schimmel.ar/categories/n%C3%A1utica/">Náutica</a></span>
         
     </p>
 
@@ -305,7 +293,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        612 Palabras
+        799 Palabras
       </p>
 
       <p>
@@ -316,7 +304,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
         
-          2021-03-22 21:00
+          2021-02-23 21:00
         
 
          
@@ -327,7 +315,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
       <hr />
       <div class="sharing-buttons">
         
-<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
   <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
     </div>
@@ -335,7 +323,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
   <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
       <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
@@ -344,7 +332,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Octoprint&amp;caption=Octoprint&amp;canonicalUrl=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata&amp;caption=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata&amp;canonicalUrl=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
   <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
     <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
@@ -353,7 +341,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="mailto:?subject=Octoprint&amp;body=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+<a class="resp-sharing-button__link" href="mailto:?subject=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata&amp;body=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
   <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
     </div>
@@ -361,7 +349,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f&amp;media=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f;description=Octoprint" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f&amp;media=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f;description=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
   <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
     </div>
@@ -369,7 +357,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f&amp;title=Octoprint&amp;summary=Octoprint&amp;source=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f&amp;title=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata&amp;summary=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata&amp;source=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
   <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
     </div>
@@ -377,7 +365,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f&amp;resubmit=true&amp;title=Octoprint" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f&amp;resubmit=true&amp;title=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
   <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
     </div>
@@ -385,7 +373,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f;title=Octoprint" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f;title=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata" target="_blank" rel="noopener" aria-label="" title="Share on xing">
   <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
     </div>
@@ -393,7 +381,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="whatsapp://send?text=Octoprint%20https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+<a class="resp-sharing-button__link" href="whatsapp://send?text=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata%20https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
   <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
     </div>
@@ -401,7 +389,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f&amp;t=Octoprint" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f&amp;t=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
   <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
     </div>
@@ -409,7 +397,7 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
 </a>
 
 
-<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Octoprint&amp;url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f03%2foctoprint%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Navegaci%c3%b3n%20Buenos%20Aires%20-%20Mar%20del%20Plata&amp;url=https%3a%2f%2fschimmel.ar%2fposts%2f2021%2f02%2fnavegacion-mdq%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
   <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
     </div>
@@ -428,17 +416,17 @@ El hecho de sacar el extrusor del cuadro en cada capa, junto con este diseño en
         <div class="pagination__buttons">
           
             <span class="button previous">
-              <a href="https://schimmel.ar/posts/2021/04/mis-analogicas/">
+              <a href="https://schimmel.ar/posts/2021/03/agfa-isolette-i/">
                 <span class="button__icon">←</span>
-                <span class="button__text">Mis cámaras analógicas</span>
+                <span class="button__text">AGFA Isolette I</span>
               </a>
             </span>
           
 
           
             <span class="button next">
-              <a href="https://schimmel.ar/posts/2021/03/agfa-isolette-i/">
-                <span class="button__text">AGFA Isolette I</span>
+              <a href="https://schimmel.ar/posts/2020/12/impresora3d/">
+                <span class="button__text">Mi primera impresora 3D</span>
                 <span class="button__icon">→</span>
               </a>
             </span>
